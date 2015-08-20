@@ -1,0 +1,10 @@
+web:
+  build: ./app/
+  environment:
+    ROOT_URL: "http://192.168.99.100"
+  volumes:
+    - "./app:/app"
+  ports:
+    - "80:3000"
+  cap_add: "SYS_ADMIN"
+  command: vboxsf-shim meteor
