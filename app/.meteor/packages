@@ -6,5 +6,7 @@
 
 meteor-platform
 autopublish
-insecure
 mquandalle:jade
+accounts-ui
+accounts-password
+coffeescript
